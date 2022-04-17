@@ -1,0 +1,74 @@
+<!DOCTYPE html> <!-- Sempre começar uma pág com index. Ele é a cabeça do projeto -->
+<html lang="pt"> <!-- Qual idioma a página irá usar -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willian de Souza Pacheco</title>
+
+    <link rel="stylesheet" href="style.css"> <!-- Linca CSS ao meu html. Sempre tem q ta na tag "head" -->
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- <img src="Screenshot_20211007-073408.png" width="150" alt="willianspacheco"> -->
+        <!-- para carregar uma imagem se utiliza 'img src'. src serve para dizer o local onde a imagem se encontra.
+        'width' serve para dizer a largura da imagem. Porém, não é a maneira mais adeuqada.
+        'alt' alternative caso a imagem não apareça, irá aparecer um texto. -->
+
+        <img src="Screenshot_20211007-073408.png" alt="willianspacheco" class="foto-principal">
+        <!-- O meio mais adequado para colocar foto a partir do CSS -->
+
+        <h1>Willian S. Pacheco</h1>
+        <!-- uma forma, que nao é mais tanto usada, de adicionar id a uma tag.
+        Lembrando que "id" é algo único e que não pode ser repitido com o mesmo nome para outras tags -->
+        <h3>Administrador de Empresas</h3>
+
+        <a href="contato.html">Contato</a>
+        
+        <br><br> <!-- Cada <br> salta uma linha para baixo-->
+        
+        <a href="http://www.linkedin.com/in/willianspacheco" target="_blank" class="linkedin">LinkeDin</a>
+        -
+        <a href="http://youtube.com.br" target="_blank" class="youtube">YouTube</a>
+        -
+        <a href="http://www.kabum.com.br" target="_blank" class="kabum">KabuM</a> 
+        <!--'a' de âncora;'h' hyperlink; 'ref' de referência; 
+        target="_blank" serve para abrir uma nova aba no navegador.-->
+
+        <p>
+            Lorem ipsum dolor <b> Willian S. Pacheco </b> sit amet consectetur <strong>adipisicing</strong> elit. 
+            Beatae, a qui natus libero <i>error nobis excepturi tempora corrupti aut dignissimos laboriosam 
+            quibusdam, consequuntur explicabo! Unde officiis laboriosam est</i> aliquid <em>quod.</em>
+            <!--
+            <b> apenas deixa em negrito. 
+            <strong> além de deixar em negrito, torna a palavra importente/urgente para os buscadores
+            <i> itálico
+            <em> além de deixar em itálico, dá ênfase para os buscadores.
+            -->
+        </p>
+
+        <h3 class="verde">Main Skills</h3> 
+            <!-- um jeito de adicionar uma class ao estilo do texto no CSS.
+            Existe outro jeito tambem que é de adicionar esta tag lá no CSS. 
+            Às vezes, se torna mais prático. No CSS ficaria assim: .verde { color: green; } ou h3 { color: blue; } -->
+
+        <ul> 
+            <!--estrutura de uma lista. usamos na abertura de uma lista não ordenada-->
+
+            <li>Administrador</li>
+            <li>MBA Logística Empresarial</li>
+            <li>MBA Gestão de Projetos</li>
+
+        </ul>
+
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Beatae, a qui natus libero error nobis excepturi tempora corrupti aut dignissimos laboriosam
+        </p>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* Como se escrever CSS do jeito certo:
+- SELETOR e abre {
+- PROPRIEDADE E VALOR e fecha } */
+
+body {                                         /* SELETOR E ABRE { */ 
+    background: rgba(221, 192, 192, 0.781);  /* PROPRIEDADE E VALOR E FECHA } */
+}                                              /* Background muda a cor de fundo da página */
+
+.verde {
+    color: green;                           /* um dos meios de criar uma classe para uma tag no html. */
+}                                             /* a propriedade color altera a cor de um texto. */
+
+h3 {
+    color: blue;                            
+}                                               /* Uma forma mais ágil para deixar todo texto daqla tag da mesma cor.
+                                                Não faz sentido usar a de cima, pois se vc quer deixar todas as tags
+                                                da mesma cor, basta colocar a tag aqui mesmo no CSS para que todas
+                                                fiquem da mesma cor. Bem mais prático */
+                                        
+.foto {
+    width: 150px;                               /* Jeito correto de adicionar uma foto */
+}
+
+#titulo-principal {
+    color: yellow;                          /* para "id", utilizamos # */
+}

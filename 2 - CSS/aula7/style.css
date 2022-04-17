@@ -1,0 +1,52 @@
+/* Como se escrever CSS do jeito certo:
+- SELETOR e abre {
+- PROPRIEDADE E VALOR e fecha } */
+
+body {                                         /* SELETOR E ABRE { */ 
+    background: rgba(92, 88, 88, 0.651);  /* PROPRIEDADE E VALOR E FECHA } */
+}                                              /* Background muda a cor de fundo da página */
+
+.verde {
+    color: green;                           /* um dos meios de criar uma classe para uma tag no html. */
+}                                             /* a propriedade color altera a cor de um texto. */
+
+h3 {
+    color: blue;                            
+}                                               /* Uma forma mais ágil para deixar todo texto daqla tag da mesma cor.
+                                                Não faz sentido usar a de cima, pois se vc quer deixar todas as tags
+                                                da mesma cor, basta colocar a tag aqui mesmo no CSS para que todas
+                                                fiquem da mesma cor. Bem mais prático */
+                                        
+.foto-principal {
+    width: 200px;    
+    border: 10px solid black;           
+    /* adiciona espaçamento externo a imagem*/
+    
+    border-radius: 50% 10% 30% 40%;                  
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 600px;
+    margin: 10px 10px 30px 30px; /* faz as 4 posições numa linha. para posicionar legal lembrar de um relógio*/
+
+    /* Jeito correto de adicionar uma foto */
+    /* modifica os cantos da imagem */
+    /* Outro jeito de adicionar as propriedades 
+    de cima. Porém, de uma forma mas longa.
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;*/
+
+    padding: 20px;
+    /* padding adiciona um espaçamento interno a imagem*/
+
+    box-shadow: 50px 30px 5px rgb(80, 78, 78);
+    /*adiciona uma sombra*/
+}
+
+#titulo-principal {
+    color: yellow;                          /* para "id", utilizamos # */
+}
+
+p {
+    color: rgb(212, 22, 86);
+}
